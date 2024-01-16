@@ -1,0 +1,351 @@
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    align-items: center;
+    padding:15px;
+}
+
+.nav1{
+  color:rgb(173, 30, 77) ;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin-left: 25px
+}
+
+.nav2{
+  
+     
+
+}
+
+.nav2 a{
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px;
+}
+
+.nav2 a:hover{
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+}
+
+.serviceh{
+  text-align: center;
+  color: rgb(0, 0, 1);
+  margin: 50px 0;
+  font-size: 25px;
+  font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.service{
+  width: 90%;
+  border: 1px solid rgb(255, 255, 255);
+  margin-left: 5%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap:30px;
+
+}
+
+.service>div{
+  background-color: rgb(235, 247, 247);
+  border: 1px solid rgb(255, 255, 255);
+  margin: 0 20px;
+  height: 500px;
+  box-shadow: 1px 3px 5px  rgb(0, 0, 0); 
+  transition: 0.5s;
+}
+
+.s1 .s11{
+  height: 50%;
+  width: 100%;
+}
+
+.s2 .s21{
+  height: 50%;
+  width: 100%;
+}
+
+.s3 .s31{
+  height: 50%;
+  width: 100%;
+}
+
+.s11 img{
+    width: 100%;
+    height: 100%;
+}
+.s21 img{
+  width: 100%;
+  height: 100%;
+}
+.s31 img{
+  width: 100%;
+  height: 100%;
+}
+.s12 h2,.s22 h2,.s32 h2{
+  text-align: center;
+  color: rgb(43, 81, 251);
+  margin-top: 25px;
+}
+.s12 p,.s22 p,.s32 p{
+ text-align: justify;
+ padding: 8px;
+ font-size: 16px;
+}
+
+.service>div:hover{
+  transform: scale(1.1);
+}
+
+
+.abouth {
+  text-align: center;
+  margin-top:30px;
+
+}
+
+.galleryh{
+  margin-top: 90px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gallery{
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-between;
+}
+
+.g1,.g2,.g3{
+  width: 30%;
+  height: 100%;
+  border: 1px solid rgb(255, 255, 255);
+  transition: 0.4s;
+  box-shadow: 1px 3px 5px  rgb(0, 0, 0); 
+}
+
+.gallery>div:hover{
+  transform: scale(1.1);
+}
+
+.gs{
+   margin-left: 150px;
+   margin-bottom: 50px;
+   margin-top: 60px;
+   display: inline-block;
+   background-color: rgb(144, 254, 254);
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.gs:hover{
+  
+color: blueviolet;
+word-spacing:  2px; 
+letter-spacing: 2px;
+  
+}
+
+.gallery img{
+  width: 100%;
+  height: 80%;
+}
+
+.gallery button{
+  width: 40%;
+  height: 8%;
+  background-color: rgb(4, 4, 4);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.gallery button:hover{
+   background-color: rgb(126, 195, 210);
+   color: blue;
+}
+
+.fa-thumbs-up{
+  color: skyblue;
+  float: right;
+  font-size: 45px;
+}
+
+.fa-thumbs-up:hover{
+  transform: translate(0,8px)
+}
+
+.abouth{
+  margin-top: 100px;
+  font-size: 25px;
+  font-family:  'Arial Narrow Bold', sans-serif;
+}
+
+.about{
+  width: 100%;
+  height: 500px;
+}
+
+.about .a1{
+  width: 50%;
+  height: 500px;
+  float: left;
+  border: 1px solid rgb(255, 255, 254);
+
+}
+.about .a1 img{
+  width: 100%;
+  height: 500px;
+  transition: .5s;
+}
+
+.about .a1 img:hover{
+  
+   transform: scale(1.2);
+}
+.about .a2{
+  width: 50%;
+  height: 500px;
+  float: right;
+  border: 1px solid rgb(255, 255, 255);
+}
+.about .a2 p{
+ 
+  font-size: 20px;
+  text-align: justify;
+  padding: 25px;
+  margin-top: 100px;
+ 
+  
+}
+
+.about .a2 a{
+ 
+margin-left: 20px;
+background-color: rgb(230, 211, 211);
+color: rgb(102, 196, 40);
+font-size: 30px;
+text-decoration: none;
+border: none;
+}
+
+.about .a2 a:hover{
+ 
+  margin-left: 20px;
+  background-color: rgb(50, 33, 33);
+  color: rgb(102, 196, 40);
+  font-size: 25px;
+  text-decoration: none;
+  border: none;
+  }
+
+  .abouth span{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .contact{
+    width: 100%;
+    height: 700px;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  .contact .c2{
+    width: 50%;
+    height: 500px;
+    border: 1px solid rgb(255, 255, 255);
+    float: left;
+  }
+
+  .contact .c1{
+    width: 50%;
+    height: 500px;
+    border: 1px solid rgb(255, 255, 255);
+    float: right;
+  }
+  .contact .c1 img{
+    width: 100%;
+    height: 500px;
+    border: 1px solid rgb(255, 255, 255);
+    float: left;
+    padding: 50px;
+  }
+
+  .c2{
+    
+    padding: 30px;
+
+  }
+
+
+  .c2 .c21{
+    height: 30px;
+    width: 80%;
+    margin-left: 100px;
+  }
+  .c2 .c22{
+    height: 30px;
+    width: 80%;
+    margin-left: 100px;
+  }
+
+  .c2 .c23{
+    height: 200px;
+    width: 80%;
+    margin-left: 100px;
+  }
+
+  .c2 .c4 {
+    height: 40px;
+    width: 20%;
+    margin-left: 100px;
+    text-decoration: none;
+    font-size: x-large;
+    background-color: rgb(20, 12, 0);
+   
+  }
+  .c2 .c4  a{
+    
+    text-decoration: none;
+    color: rgb(76, 162, 237);
+  }
+
+  .nav1 .fa-square-facebook{
+    color: blue;
+    
+  }
+  
+  .nav1 .fa-linkedin{
+    color: rgb(9, 53, 58);
+ 
+  }
+  
+  .nav1 .fa-instagram{
+    color: rgb(255, 0, 0);
+   
+  }
+
+  .nav1 i{
+    font-size: 30px;
+    margin-left: 30px;
+  }
+
+  .nav h3{
+    color: cornflowerblue;
+    float-right:25px;
+  }
